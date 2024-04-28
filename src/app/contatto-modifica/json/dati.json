@@ -1,0 +1,73 @@
+{
+    "rubrica": [
+      {
+        "id": 2,
+        "tipologia": "Persona Giuridica",
+        "RagioneSociale": "Comune di Belluno",
+        "indirizzo": {
+          "via": "Via Belluno n.10",
+          "citta": "Belluno",
+          "provincia": "Belluno",
+          "CAP": 32100,
+          "nazione": "Italia"
+        },
+        "email": "comune.belluno@gmail.com",
+        "prefisso": "+39",
+        "telefono": 3391235676
+      },
+      {
+        "tipologia": "persona fisica",
+        "nome": "Valentina",
+        "cognome": "Veri",
+        "RagioneSociale": "",
+        "indirizzo": {
+          "via": "",
+          "citta": "",
+          "provincia": "BL",
+          "CAP": "32100",
+          "nazione": "Italia"
+        },
+        "email": "valentinaveri92@gmail.com",
+        "prefisso": "",
+        "telefono": 228573955,
+        "compleanno": "",
+        "id": 4
+      },
+      {
+        "tipologia": "persona giuridica",
+        "nome": "",
+        "cognome": "",
+        "RagioneSociale": "Comune di Roma",
+        "indirizzo": {
+          "via": "Roma",
+          "citta": "44",
+          "provincia": "",
+          "CAP": null,
+          "nazione": "Italia"
+        },
+        "email": "roma@roma.it",
+        "prefisso": "",
+        "telefono": 44028578,
+        "compleanno": "",
+        "id": 5
+      },
+      {
+        "tipologia": "persona giuridica",
+        "nome": "",
+        "cognome": "",
+        "RagioneSociale": "Banca Intesa",
+        "indirizzo": {
+          "via": "Piave 5",
+          "citta": "Belluno",
+          "provincia": "Belluno",
+          "CAP": null,
+          "nazione": "Italia"
+        },
+        "email": "",
+        "prefisso": "",
+        "telefono": 563997265,
+        "compleanno": "",
+        "id": 6
+      }
+    ]
+  }

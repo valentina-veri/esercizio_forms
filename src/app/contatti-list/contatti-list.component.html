@@ -1,0 +1,5 @@
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let c of contatti">
+        <a [routerLink]="['/contatti-dettaglio', c.id]">{{c.nome}} {{c.cognome}} {{c.RagioneSociale}}</a>
+    </li>
+</ul>

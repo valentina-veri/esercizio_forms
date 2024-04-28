@@ -1,0 +1,17 @@
+<div>
+    <p><strong>{{contatto.nome}} {{contatto.cognome}} {{contatto.RagioneSociale}}</strong></p>
+    <p>Tel: {{contatto.telefono}}</p>
+    <p>Email: {{contatto.email}}</p>
+    <p>INDIRIZZO</p>
+    <p>Via: {{contatto.indirizzo.via}}</p>
+    <p>Città: {{contatto.indirizzo.citta}}</p>
+    <p>CAP: {{contatto.indirizzo.CAP}}</p>
+    <p>Provincia: {{contatto.indirizzo.provincia}}</p>
+    <p>Nazione: {{contatto.indirizzo.nazione}}</p>
+    <p *ngIf="contatto.nome">Compleanno: {{contatto.compleanno}}</p>
+
+    <button type="button" class="btn btn-danger" (click)="eliminaContatto()">Elimina</button>
+
+    <button type="button" class="btn btn-secondary" [routerLink]="['/contatti-modifica', contatto.id]">Modifica</button>
+
+</div>
