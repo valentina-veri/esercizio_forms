@@ -12,8 +12,8 @@ export class ContattiListComponent {
   constructor(private cs: ContattiService) { }
 
   contatti: Contatto[] = []
-
-  ngOnInit(): void {
+  
+  ngOnInit(): void{
     this.cs.getContatto().subscribe(dati => this.contatti = dati)
   }
   

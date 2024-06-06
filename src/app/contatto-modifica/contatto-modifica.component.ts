@@ -37,14 +37,16 @@ export class ContattoModificaComponent {
     })
 
     const id = parseInt(this.route.snapshot.paramMap.get("id")!)
+
     this.cs.getContattoById(id).subscribe(dati =>
       this.contatto.patchValue(dati))
 
+    this.cs.getContattoById(id).subscribe(dati => this.contattoModificato = dati)
   }
 
   modificaContatto() {
 
-    this.cs.modificaContatto(this.contattoModificato, this.contattoModificato.id).subscribe({
+    this.cs.modificaContatto(this.contatto.value, this.contattoModificato.id).subscribe({
       next: (dati) => {
         console.log(dati)
         this.router.navigate(['/contatti-list'])
